@@ -1,5 +1,5 @@
 {
-    "name": "link_of_the_month/link_of_the_month",
+    "name": "tarek/link_of_the_month",
     "type": "typo3-cms-extension",
     "description": "link_of_the_month",
     "keywords": ["typo3", "extension"],
@@ -19,3 +19,4 @@
         }
     }
 }
+l
