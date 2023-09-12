@@ -1,0 +1,60 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/constants.typoscript">
+
+
+############
+### PAGE ###
+############
+page {
+    logo {
+        file = EXT:link_of_the_month/Resources/Public/Images/logo.svg
+        fileInverted = EXT:link_of_the_month/Resources/Public/Images/logo-inverted.svg
+        height = 52
+        width = 192
+        alt = Link of the Month
+        linktitle = Link of the Month
+    }
+    favicon {
+        file = EXT:link_of_the_month/Resources/Public/Icons/favicon.ico
+    }
+    fluidtemplate {
+        layoutRootPath = EXT:link_of_the_month/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:link_of_the_month/Resources/Private/Partials/Page/
+        templateRootPath = EXT:link_of_the_month/Resources/Private/Templates/Page/
+    }
+}
+
+
+##################
+### EXTENSIONS ###
+##################
+plugin.bootstrap_package {
+    view {
+        layoutRootPath = EXT:link_of_the_month/Resources/Private/Layouts/
+        partialRootPath = EXT:link_of_the_month/Resources/Private/Partials/
+        templateRootPath = EXT:link_of_the_month/Resources/Private/Templates/
+    }
+}
+
+
+########################
+### CONTENT ELEMENTS ###
+########################
+plugin.bootstrap_package_contentelements {
+    view {
+        layoutRootPath = EXT:link_of_the_month/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:link_of_the_month/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:link_of_the_month/Resources/Private/Templates/ContentElements/
+    }
+}
+
+
+################################
+### BOOTSTRAP SCSS CONSTANTS ###
+################################
+plugin.bootstrap_package.settings.scss {
+    primary = #eb3e4a
+    secondary = #013859
+}
