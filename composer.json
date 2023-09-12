@@ -1,12 +1,12 @@
 {
-    "name": "coderednet/link-of-the-month",
+    "name": "link_of_the_month/link_of_the_month",
     "type": "typo3-cms-extension",
-    "description": "Link of the Month  description",
-    "homepage": "http://www.codered.net",
-    "license": ["GPL-2.0-or-later"],
-    "keywords": ["TYPO3 CMS"],
+    "description": "link_of_the_month",
+    "keywords": ["typo3", "extension"],
+    "homepage": "https://github.com/Tarek-TEMIMI/link-of-the-month",
+    "license": "GPL-2.0-or-later",
     "require": {
-        "bk2k/bootstrap-package": "^13.0 || ^14.0"
+        "typo3/cms-core": "^9.5"
     },
     "autoload": {
         "psr-4": {
